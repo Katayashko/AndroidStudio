@@ -5,15 +5,14 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/dark">
+    android:background="@color/dark"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv3"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="@string/defaultTxt"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,26 +20,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/button0"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/circle_btn"
-        android:onClick="buttonClick2"
+        android:onClick="buttonClick1"
         android:padding="8dp"
-        android:text="@string/click_me"
+        android:text="@string/zero"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/circle_btn"
         android:onClick="buttonClick1"
         android:padding="8dp"
-        android:text="@string/click_me"
+        android:text="@string/one"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -49,9 +51,105 @@
         android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick2"
+        android:padding="8dp"
+        android:text="@string/two"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/circle_btn"
         android:onClick="buttonClick3"
-        android:text="@string/click_me"
+        android:text="@string/three"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/four"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/five"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/six"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/seven"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/eight"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/circle_btn"
+        android:onClick="buttonClick3"
+        android:text="@string/nine"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
