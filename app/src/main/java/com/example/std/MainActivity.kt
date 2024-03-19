@@ -29,19 +29,61 @@ class MainActivity : ComponentActivity() {
     fun buttonClick1(view: View) {
         findViewById<TextView>(R.id.tv3).apply {
             ;
-            text = context.getString(R.string.hi)
+            text = context.getString(R.string.one)
         }
     }
     fun buttonClick2(view: View) {
         findViewById<TextView>(R.id.tv3).apply {
             ;
-            text = context.getString(R.string.name)
+            text = context.getString(R.string.two)
         }
     }
     fun buttonClick3(view: View) {
         findViewById<TextView>(R.id.tv3).apply {
             ;
-            text = context.getString(R.string.me)
+            text = context.getString(R.string.three)
+        }
+    }
+
+    fun buttonClick4(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.four)
+        }
+    }
+
+    fun buttonClick5(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.five)
+        }
+    }
+
+    fun buttonClick6(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.six)
+        }
+    }
+
+    fun buttonClick7(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.seven)
+        }
+    }
+
+    fun buttonClick8(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.eight)
+        }
+    }
+
+    fun buttonClick9(view: View) {
+        findViewById<TextView>(R.id.tv3).apply {
+            ;
+            text = context.getString(R.string.nine)
         }
     }
 }
